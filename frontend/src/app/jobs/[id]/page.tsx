@@ -1,4 +1,4 @@
-import { getJob } from "@/lib/api";
+import { getJob } from "@/lib/api/jobs";
 
 type Props = { params: { id: string } };
 

@@ -1,4 +1,4 @@
-import { getJobs } from "@/lib/api";
+import { getJobs } from "@/lib/api/jobs";
 
 export default async function JobsPage() {
   const jobs = await getJobs();
