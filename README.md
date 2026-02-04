@@ -46,4 +46,47 @@
 
 <br/>
 
-## 📂 Project Structure
+## 🚀 Quick Start (Local Development)
+
+### Requirements
+
+- PHP 8.2+
+- Node.js 25+
+- Composer
+- Redis
+- Meilisearch (local or docker)
+- npm / pnpm / yarn
+
+### Backend Setup
+
+```bash
+cd backend
+
+# Install dependencies
+composer install
+
+# Prepare environment
+cp .env.example .env
+php artisan key:generate
+
+# Database & migrations
+php artisan migrate --seed
+
+# (Optional) Import models to Meilisearch
+php artisan scout:import "App\Models\YourModel"
+
+php artisan serve               # http://localhost:8000
+
+
+### Frontend Setup
+
+```bash
+cd frontend
+
+# Install dependencies
+npm install
+# or pnpm install / yarn install
+
+# Start dev server
+npm run dev                     # http://localhost:3000
+
