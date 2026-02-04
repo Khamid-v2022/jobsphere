@@ -1,6 +1,6 @@
 <div align="center">
 
-# [Jop portal]
+# Jop portal
 
 **Modern full-stack web application with fast search and efficient background processing**
 
