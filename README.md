@@ -76,7 +76,7 @@ php artisan migrate --seed
 php artisan scout:import "App\Models\YourModel"
 
 php artisan serve               # http://localhost:8000
-
+```
 
 ### Frontend Setup
 
@@ -89,4 +89,5 @@ npm install
 
 # Start dev server
 npm run dev                     # http://localhost:3000
+```
 
