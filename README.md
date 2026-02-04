@@ -1,6 +1,6 @@
 <div align="center">
 
-# [Your Project Name]
+# [Jop portal]
 
 **Modern full-stack web application with fast search and efficient background processing**
 
